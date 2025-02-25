@@ -1,145 +1,126 @@
 <h1 align="center">GPT4All</h1>
-<p align="center">Open-source assistant-style large language models that run locally on CPU</p>
 
 <p align="center">
-<a href="https://gpt4all.io">GPT4All Website</a>
+  Now with support for DeepSeek R1 Distillations
 </p>
 
 <p align="center">
-<a href="https://discord.gg/mGZE39AS3e">Discord</a>
-</p>
-
-
-<p align="center">
-<a href="https://gpt4all.io/reports/GPT4All_Technical_Report_3.pdf">:green_book: Technical Report 3: GPT4All Snoozy and Groovy </a>
+  <a href="https://www.nomic.ai/gpt4all">Website</a> &bull; <a href="https://docs.gpt4all.io">Documentation</a> &bull; <a href="https://discord.gg/mGZE39AS3e">Discord</a> &bull; <a href="https://www.youtube.com/watch?v=gQcZDXRVJok">YouTube Tutorial</a>
 </p>
 
 <p align="center">
-<a href="https://static.nomic.ai/gpt4all/2023_GPT4All-J_Technical_Report_2.pdf">:green_book: Technical Report 2: GPT4All-J </a>
+  GPT4All runs large language models (LLMs) privately on everyday desktops & laptops.
+</p>
+<p align="center">
+  No API calls or GPUs required - you can just download the application and <a href="https://docs.gpt4all.io/gpt4all_desktop/quickstart.html#quickstart">get started</a>.
 </p>
 
 <p align="center">
-<a href="https://s3.amazonaws.com/static.nomic.ai/gpt4all/2023_GPT4All_Technical_Report.pdf">:green_book: Technical Report 1: GPT4All</a>
+  Read about what's new in <a href="https://www.nomic.ai/blog/tag/gpt4all">our blog</a>.
 </p>
-
 <p align="center">
-<a href="https://github.com/nomic-ai/gpt4all/tree/main/gpt4all-bindings/python/README.md">:snake: Official Python Bindings</a>
+  <a href="https://nomic.ai/gpt4all/#newsletter-form">Subscribe to the newsletter</a>
 </p>
 
-<p align="center">
-<a href="https://github.com/nomic-ai/gpt4all-ts">:computer: Official Typescript Bindings</a>
-</p>
-
-<p align="center">
-<a href="https://github.com/nomic-ai/gpt4all/blob/main/gpt4all-chat/README.md">:speech_balloon: Official Chat Interface</a>
-</p>
-
-<p align="center">
-<a href="https://github.com/nomic-ai/gpt4all-ui">:speech_balloon: Official Web Chat Interface</a>
-</p>
-
-<p align="center">
-<a href="https://python.langchain.com/en/latest/modules/models/llms/integrations/gpt4all.html">🦜️🔗 Official Langchain Backend</a> 
-</p>
-
-
-
+https://github.com/nomic-ai/gpt4all/assets/70534565/513a0f15-4964-4109-89e4-4f9a9011f311
 
 <p align="center">
 GPT4All is made possible by our compute partner <a href="https://www.paperspace.com/">Paperspace</a>.
 </p>
 
+## Download Links
 
-
-## GPT4All: An ecosystem of open-source on-edge large language models.
-![gpt4all-j-demo](https://user-images.githubusercontent.com/13879686/231876409-e3de1934-93bb-4b4b-9013-b491a969ebbc.gif)
-
-Run on an M1 Mac (not sped up!)
-
-
-## Contributing
-GPT4All welcomes contribution, involvment, and discussion from the open source community!
-Please see CONTRIBUTING.md and follow the issue, bug report, and PR markdown templates.
-
-Check project discord, with project owners, or through existing issues/PRs to avoid duplicate work.
-Please make sure to tag all of the above with relevant project identifiers or your contribution could potentially get lost.
-Example tags: `backend`, `bindings`, `python-bindings`, `documentation`, etc.
- 
-
-
-### Chat Client
-Run any GPT4All model natively on your home desktop with the auto-updating desktop chat client. See website for exaustive list of models.
-
-<p align="center">
-<a href="https://gpt4all.io">GPT4All Website</a>
+<p>
+  &mdash; <a href="https://gpt4all.io/installers/gpt4all-installer-win64.exe">
+    <img src="gpt4all-bindings/python/docs/assets/windows.png" style="height: 1em; width: auto" /> Windows Installer
+  </a> &mdash;
+</p>
+<p>
+  &mdash; <a href="https://gpt4all.io/installers/gpt4all-installer-win64-arm.exe">
+    <img src="gpt4all-bindings/python/docs/assets/windows.png" style="height: 1em; width: auto" /> Windows ARM Installer
+  </a> &mdash;
+</p>
+<p>
+  &mdash; <a href="https://gpt4all.io/installers/gpt4all-installer-darwin.dmg">
+    <img src="gpt4all-bindings/python/docs/assets/mac.png" style="height: 1em; width: auto" /> macOS Installer
+  </a> &mdash;
+</p>
+<p>
+  &mdash; <a href="https://gpt4all.io/installers/gpt4all-installer-linux.run">
+    <img src="gpt4all-bindings/python/docs/assets/ubuntu.svg" style="height: 1em; width: auto" /> Ubuntu Installer
+  </a> &mdash;
+</p>
+<p>
+  The Windows and Linux builds require Intel Core i3 2nd Gen / AMD Bulldozer, or better.
+</p>
+<p>
+  The Windows ARM build supports Qualcomm Snapdragon and Microsoft SQ1/SQ2 processors.
+</p>
+<p>
+  The Linux build is x86-64 only (no ARM).
+</p>
+<p>
+  The macOS build requires Monterey 12.6 or newer. Best results with Apple Silicon M-series processors.
 </p>
 
-Direct Installer Links:
+See the full [System Requirements](gpt4all-chat/system_requirements.md) for more details.
 
-[Mac/OSX](https://gpt4all.io/installers/gpt4all-installer-darwin.dmg)
+<br/>
+<br/>
+<p>
+  <a href='https://flathub.org/apps/io.gpt4all.gpt4all'>
+    <img style="height: 2em; width: auto" alt='Get it on Flathub' src='https://flathub.org/api/badge'><br/>
+    Flathub (community maintained)
+  </a>
+</p>
 
-[Windows](https://gpt4all.io/installers/gpt4all-installer-win64.exe)
+## Install GPT4All Python
 
-[Ubuntu](https://gpt4all.io/installers/gpt4all-installer-linux.run)
+`gpt4all` gives you access to LLMs with our Python client around [`llama.cpp`](https://github.com/ggerganov/llama.cpp) implementations. 
 
-If you have older hardware that only supports avx and not avx2 you can use these.
-
-[Mac/OSX - avx-only](https://gpt4all.io/installers/gpt4all-installer-darwin-avx-only.dmg)
-
-[Windows - avx-only](https://gpt4all.io/installers/gpt4all-installer-win64-avx-only.exe)
-
-[Ubuntu - avx-only](https://gpt4all.io/installers/gpt4all-installer-linux-avx-only.run)
-
-
-Find the most up-to-date information on the [GPT4All Website](https://gpt4all.io/)
-
-### Python Bindings
+Nomic contributes to open source software like [`llama.cpp`](https://github.com/ggerganov/llama.cpp) to make LLMs accessible and efficient **for all**.
 
 ```bash
 pip install gpt4all
 ```
 
 ```python
-import gpt4all
-gptj = gpt4all.GPT4All("ggml-gpt4all-j-v1.3-groovy")
-messages = [{"role": "user", "content": "Name 3 colors"}]
-gptj.chat_completion(messages)
+from gpt4all import GPT4All
+model = GPT4All("Meta-Llama-3-8B-Instruct.Q4_0.gguf") # downloads / loads a 4.66GB LLM
+with model.chat_session():
+    print(model.generate("How can I run LLMs efficiently on my laptop?", max_tokens=1024))
 ```
 
-## Training GPT4All-J
 
-Please see [GPT4All-J Technical Report](https://static.nomic.ai/gpt4all/2023_GPT4All-J_Technical_Report_2.pdf) for details.
+## Integrations
 
-### GPT4All-J Training Data
+:parrot::link: [Langchain](https://python.langchain.com/v0.2/docs/integrations/providers/gpt4all/)
+:card_file_box: [Weaviate Vector Database](https://github.com/weaviate/weaviate) - [module docs](https://weaviate.io/developers/weaviate/modules/retriever-vectorizer-modules/text2vec-gpt4all)
+:telescope: [OpenLIT (OTel-native Monitoring)](https://github.com/openlit/openlit) - [Docs](https://docs.openlit.io/latest/integrations/gpt4all)
 
-- We are releasing the curated training data for anyone to replicate GPT4All-J here: [GPT4All-J Training Data](https://huggingface.co/datasets/nomic-ai/gpt4all-j-prompt-generations)
-   - [Atlas Map of Prompts](https://atlas.nomic.ai/map/gpt4all-j-prompts-curated)
-   - [Atlas Map of Responses](https://atlas.nomic.ai/map/gpt4all-j-response-curated)
-   
-We have released updated versions of our `GPT4All-J` model and training data. 
+## Release History
+- **July 2nd, 2024**: V3.0.0 Release
+    - Fresh redesign of the chat application UI
+    - Improved user workflow for LocalDocs
+    - Expanded access to more model architectures
+- **October 19th, 2023**: GGUF Support Launches with Support for:
+    - Mistral 7b base model, an updated model gallery on our website, several new local code models including Rift Coder v1.5
+    - [Nomic Vulkan](https://blog.nomic.ai/posts/gpt4all-gpu-inference-with-vulkan) support for Q4\_0 and Q4\_1 quantizations in GGUF.
+    - Offline build support for running old versions of the GPT4All Local LLM Chat Client.
+- **September 18th, 2023**: [Nomic Vulkan](https://blog.nomic.ai/posts/gpt4all-gpu-inference-with-vulkan) launches supporting local LLM inference on NVIDIA and AMD GPUs.
+- **July 2023**: Stable support for LocalDocs, a feature that allows you to privately and locally chat with your data.
+- **June 28th, 2023**: [Docker-based API server] launches allowing inference of local LLMs from an OpenAI-compatible HTTP endpoint.
 
-- `v1.0`: The original model trained on the v1.0 dataset
-- `v1.1-breezy`: Trained on a filtered dataset where we removed all instances of AI language model
-- `v1.2-jazzy`: Trained on a filtered dataset where we also removed instances like I'm sorry, I can't answer... and AI language model
+[Docker-based API server]: https://github.com/nomic-ai/gpt4all/tree/cef74c2be20f5b697055d5b8b506861c7b997fab/gpt4all-api
 
-The [models](https://huggingface.co/nomic-ai/gpt4all-j) and [data](https://huggingface.co/datasets/nomic-ai/gpt4all-j-prompt-generations) versions can be specified by passing a `revision` argument.
+## Contributing
+GPT4All welcomes contributions, involvement, and discussion from the open source community!
+Please see CONTRIBUTING.md and follow the issues, bug reports, and PR markdown templates.
 
-For example, to load the `v1.2-jazzy` model and dataset, run:
+Check project discord, with project owners, or through existing issues/PRs to avoid duplicate work.
+Please make sure to tag all of the above with relevant project identifiers or your contribution could potentially get lost.
+Example tags: `backend`, `bindings`, `python-bindings`, `documentation`, etc.
 
-```python
-from datasets import load_dataset
-from transformers import AutoModelForCausalLM
-
-dataset = load_dataset("nomic-ai/gpt4all-j-prompt-generations", revision="v1.2-jazzy")
-model = AutoModelForCausalLM.from_pretrained("nomic-ai/gpt4all-j-prompt-generations", revision="v1.2-jazzy")
-```
-
-### GPT4All-J Training Instructions
-
-```bash
-accelerate launch --dynamo_backend=inductor --num_processes=8 --num_machines=1 --machine_rank=0 --deepspeed_multinode_launcher standard --mixed_precision=bf16  --use_deepspeed --deepspeed_config_file=configs/deepspeed/ds_config_gptj.json train.py --config configs/train/finetune_gptj.yaml
-```
-    
 ## Citation
 
 If you utilize this repository, models or data in a downstream project, please consider citing it with:
